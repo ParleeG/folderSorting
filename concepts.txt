@@ -20,3 +20,20 @@ function highOrderFunction(cb){
     console.log(value)
 }
 
+--------------------------------------------------------------------------------------------------
+fs -> File System
+
+require is used to import the module in  the node
+for example:- 
+fs=require("fs")
+
+fs.readFileSync(path,encoding) => used to read the data synchronsly from the file provided in the path
+variable and by using the encoding
+
+fs.writeFileSync(path,data) => used to write the data synchronsly to the file path provide in the path
+variable 
+
+we cannot import the whole Javascript file to the another file
+
+for every javascript file it have the module.exports object which is an empty object used to export the 
+variables to another file
