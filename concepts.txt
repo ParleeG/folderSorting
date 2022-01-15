@@ -1,0 +1,22 @@
+In Javascript a function acts like a variable
+for example:-        
+let sayHi=function(){
+    console.log("sayHi function says Hi")
+}
+
+CallBack Function => Function which are passed as a argument in a function
+for example:-
+function callback(){
+    console.log("I am passed as a argument")
+    return 5
+}
+highOrderFunction(callback)
+
+
+High Order Function => Function which accepts functions as a argument
+for example:-
+function highOrderFunction(cb){
+    let value =cb();
+    console.log(value)
+}
+
